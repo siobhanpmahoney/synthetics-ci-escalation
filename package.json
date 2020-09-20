@@ -1,0 +1,11 @@
+{
+  "name": "synthetics-ci-test-project",
+  "version": "0.1.0",
+  "description": "syrum-1254",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@datadog/datadog-ci": "^0.5.6"
+  }
+}

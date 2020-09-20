@@ -1,0 +1,11 @@
+{
+  "datadogSite": "datadoghq.com",
+  "files": "{,!(node_modules)/**/}*.synthetics.json",
+  "global": {
+    "allowInsecureCertificates": true,
+    "startUrl": "https://engt3ajfgqyxm.x.pipedream.net/",
+    "pollingTimeout": 180000,
+    "body": "{ \"test_run_type\": \"CI\" }",
+    "locations": ["aws:us-east-2"]
+  }
+}
